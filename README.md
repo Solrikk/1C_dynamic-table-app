@@ -1,10 +1,10 @@
-# Product Import Tool from Website to CSV
+# BlueMoon: A Product Import Tool from Website to CSV
 
 ## Overview
-This project is a Go language tool designed to automatically download, process, and save product data from a remote server into a CSV file. It is built for handling XML files containing information about products and their categories fetched from an e-commerce store. By converting data from XML to an easily readable and analyzable CSV format, this tool can be extremely useful for store owners, marketers, and analysts for further data processing and analysis.
+The BlueMoon project is a tool developed in Go, aimed at automatically downloading, processing, and saving product data from a remote server into a CSV file format. Designed to handle XML files containing product and category information from an e-commerce platform, BlueMoon offers a seamless solution for transforming XML data into a CSV format that's easier to read and analyze. This makes it an invaluable resource for e-commerce store owners, marketing professionals, and data analysts for further data manipulation and analysis tasks.
 
 ## Features
-- Downloads product data in XML format from a specified URL.
-- Parses XML to extract detailed information about each product, including ID, name, category, price, old price, image URLs, and sizes.
-- Saves the extracted information into a CSV file with a defined structure.
-- Automatically creates a directory for saving the output if it does not exist.
+- **Data Download**: Downloads product data in XML format from a provided URL.
+- **XML Parsing**: Efficiently parses XML to extract comprehensive details on each product, including identifiers, names, categories, pricing information, URLs for images, and product sizes.
+- **CSV Conversion**: Converts and saves the extracted product information into a neatly structured CSV file.
+- **Directory Management**: Automatically ensures the existence of or creates a new directory for storing the exported CSV file, facilitating a hassle-free data export experience.
