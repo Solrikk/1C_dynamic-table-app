@@ -8,9 +8,3 @@ This project is a Go language tool designed to automatically download, process, 
 - Parses XML to extract detailed information about each product, including ID, name, category, price, old price, image URLs, and sizes.
 - Saves the extracted information into a CSV file with a defined structure.
 - Automatically creates a directory for saving the output if it does not exist.
-
-## Requirements
-Running and using this tool requires Go runtime to be installed.
-
-## Installation and Usage
-1. Clone the repository to a local directory using:
